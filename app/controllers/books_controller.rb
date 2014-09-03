@@ -1,10 +1,13 @@
 class BooksController < ApplicationController
   before_action :set_book, only: %i(show edit update destroy)
+
   def show
+    @book = Book.find(params[:id])
+
     respond_to do |format|
       format.html
       format.csv
-      format.json
+      format.xml { render xml: @book }
     end
   end
 
