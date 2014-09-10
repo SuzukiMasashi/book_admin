@@ -8,6 +8,7 @@ class BooksController < ApplicationController
       format.html
       format.csv
       format.xml { render xml: @book }
+      format.json
     end
   end
 
