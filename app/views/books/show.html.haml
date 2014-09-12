@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title BookAdmin
+  %body
+    %h1 本の情報
+    %dl
+      %dt 書籍名
+      %dd= @book.name
+      %dt 価格
+      %dd= @book.price
+      %dt 発売日
+      %dd= @book.published_on.to_s
+    - 3.times do |i|
+      %p Item
+      %p= i

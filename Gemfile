@@ -27,12 +27,13 @@ gem 'spring',        group: :development
 
 gem 'haml-rails'
 
-gem 'awesome_print' , groups: [:development, :test]
-gem 'byebug'      , groups: [:development, :test]
-gem 'dotenv-rails', groups: [:development, :test]
-gem 'pry-byebug'  , groups: [:development, :test]
-gem 'pry-rails'   , groups: [:development, :test]
-gem 'tapp'        , groups: [:development, :test]
+gem 'awesome_print', groups: [:development, :test]
+gem 'byebug'       , groups: [:development, :test]
+gem 'dotenv-rails' , groups: [:development, :test]
+gem 'erb2haml'     , groups: [:development, :test]
+gem 'pry-byebug'   , groups: [:development, :test]
+gem 'pry-rails'    , groups: [:development, :test]
+gem 'tapp'         , groups: [:development, :test]
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
